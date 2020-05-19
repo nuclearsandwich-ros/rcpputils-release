@@ -1,0 +1,12 @@
+Source: ros-testing-rcpputils
+Section: misc
+Priority: optional
+Maintainer: Emerson Knapp <eknapp@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rcutils, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rcpputils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rcutils, ros-testing-ros-workspace
+Description: Package containing utility code for C++.
